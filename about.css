@@ -1,0 +1,70 @@
+/* About.css */
+
+/* Container styling */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Heading */
+.about-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Paragraphs */
+.about-container p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Links */
+.about-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
+/* Skills and contact sections */
+.about-container .skills,
+.about-container .contact {
+  margin-top: 20px;
+}
+
+/* ------------------ */
+/* MOBILE RESPONSIVE */
+/* ------------------ */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 15px;
+  }
+
+  .about-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-container p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 10px;
+  }
+
+  .about-container h1 {
+    font-size: 1.3rem;
+  }
+
+  .about-container p {
+    font-size: 0.85rem;
+  }
+}
